@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Reset stylesheet -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Render all elements normally -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--Font awesome library-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Main CSS stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Training</title>
+</head>
+<body>
+  <section>
+    <h3 class="title">Typing Speed Test Game</h3>
+    <div class="container">
+      </form>
+      <form action="" id="lvl-form">
+        <fieldset>
+          <legend for="options">Difficulty:</legend>
+          <select name="options" id="lvl">
+            <option value="Easy">Easy</option>
+            <option value="Mid">Mid</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </fieldset>
+      </form>
+      <button type="button" id="start">Start Game</button>
+      <button type="button" id="replay">Replay</button>
+      <p id="word"></p>
+      <input type="text" name="" id="word-inp">
+      <p id="data">
+        <span id="time-left">Time left: Seconds</span>
+        <span id="score">Score of</span>
+      </p>
+      <div id="words"></div>
+      <p id="instructions"></p>
+      <p id="game-over">Game Over</p>
+    </div>
+  </section>
+  <script src="/JS/script.js"></script>
+</body>
+</html>
